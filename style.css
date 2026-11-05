@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+    background-color: lightgray;
+    padding: 5px 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.buynow {
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: azure;
+    cursor: pointer;
+}
+
+.gameparent {
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.gamelibrary {
+    align-self: center;
+    margin: 20px;
+}
+.maindiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-self: center;
+    gap: 30px;
+    column-gap: 400px;
+    
+}
+.content {
+    position: relative;
+    border: 1px solid black;
+    height: 500px;
+    border-radius: 30px;
+    overflow: hidden;
+    
+}
+.games {
+    border: 1px solid lightcoral;
+    padding: 3px;
+    width: 50px;
+    background-color: brown;
+    border-radius: 3px;
+    place-self: center;
+    position: absolute;
+    top: 20px;
+    left: 247px;
+    border-radius: 5px;
+}
+.gamename {
+    place-self: center;
+}
+.price {
+        place-self: center;
+}
+.button {
+     display: grid;
+     place-self: center;
+     cursor: pointer;
+        
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    background-color: lightgray;
+}
+
+.footerinfo {
+    align-self: flex-end;
+}
