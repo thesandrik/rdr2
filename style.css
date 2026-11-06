@@ -51,7 +51,7 @@
     grid-template-columns: repeat(3, 1fr);
     place-self: center;
     gap: 30px;
-    column-gap: 400px;
+    /* column-gap: 400px; */
     
 }
 .content {
