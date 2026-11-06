@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: antiquewhite;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -51,8 +54,6 @@
     grid-template-columns: repeat(3, 1fr);
     place-self: center;
     gap: 30px;
-    /* column-gap: 400px; */
-    
 }
 .content {
     position: relative;
@@ -60,6 +61,8 @@
     height: 500px;
     border-radius: 30px;
     overflow: hidden;
+    background-color: blanchedalmond;
+    box-shadow: 4px 4px 4px 4px;
     
 }
 .games {
@@ -97,4 +100,16 @@ footer {
 
 .footerinfo {
     align-self: flex-end;
+}
+
+.content:hover {
+  translate: 0 -15px;
+}
+
+button {
+  background-color: rgb(184, 128, 24);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px; 
 }
